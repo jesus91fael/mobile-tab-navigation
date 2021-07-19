@@ -41,4 +41,10 @@ body{
     left: 0;
     width: 100%;
     height: calc(100%-60px);
+
+    height: 500px;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+    background-position: center;
+    margin-bottom: 15px;
 }
