@@ -1,6 +1,44 @@
+body{
+    background: #7c7c7c;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 .menu{
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: row;
+    
+    background: #fff;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+}
+
+.box{
+    width: 350px;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.box img{
+    /* flex-direction: column;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff; */
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: calc(100%-60px);
 }

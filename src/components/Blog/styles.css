@@ -1,10 +1,10 @@
-.home{
-    background: pink;
+.blog{
+    background: blue;
     height: 500px;
 	width: 340px;
 }
 
 img{
-    width: 800px;
+    width: 100%;
     display: block;
 }

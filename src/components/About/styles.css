@@ -1,3 +1,13 @@
 .about{
     background: green;
+    height: 500px;
+	width: 340px;
+}
+
+img{
+    height: 500px;
+    background-size: cover;
+    border-radius: 25px 25px 0 0;
+    background-position: center;
+    margin-bottom: 15px;
 }

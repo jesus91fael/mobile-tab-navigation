@@ -1,8 +1,14 @@
 .item-menu{
-    padding: 30px;
     display: flex;
-    justify-content: right;
     align-items: center;
+    
+    flex-direction: column;
+    justify-content: space-between;
     flex: 1;
+    text-align: center;
+    padding: 50px 0;
     cursor: pointer;
+    background: #fff;
+    bottom: 0;
+    width: 100%;
 }
